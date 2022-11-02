@@ -1,0 +1,278 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    margin:0;
+    padding:0;
+    background-color:#ffffff;
+}
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button_1{
+    height:38px;
+    background:gold;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff
+}
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* Header **/
+header{
+    background:#35424a;
+    color:bisque;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:goldenrod 3px solid;
+}
+
+header a{
+    color:bisque;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:goldenrod;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#f4f4f4;
+    font-weight:bold;
+}
+
+/* intro */
+
+#intro{
+    min-height:400px;
+    background:url('https://i.pinimg.com/originals/ea/33/77/ea3377b5808ecde7acd700e7f996f323.jpg') no-repeat;
+    background-size:cover;
+    text-align:center;
+    color:goldenrod;
+}
+
+#intro h1{
+    margin-top:100px;
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+#intro p{
+    font-size:20px;
+}
+
+#intro2{
+    min-height:400px;
+    background:url('https://cdn.britannica.com/65/65-050-1017486F/Journey-Minghuang-Shu-ink-colour-silk-style.jpg') no-repeat;
+    background-size:cover;
+    text-align:center;
+    color:black;
+}
+
+#intro2 h1{
+    margin-top:100px;
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+#intro3{
+    min-height:400px;
+    background:url('https://img.jakpost.net/c/2017/09/29/2017_09_29_33296_1506650483._large.jpg') no-repeat;
+   background-position:center;
+   background-size:cover;
+    color:black;
+    text-align:center;
+    color:black;
+}
+#intro3 h1{
+    margin-top:100px;
+    font-size:50px;
+    margin-bottom:10px;
+}
+#intro4{
+    min-height:400px;
+    background:url('https://cdn.wccftech.com/wp-content/uploads/2018/09/Total-War-Three-Kingdoms-Release-Date-01-Yellow-Turban-Header.jpg') no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:black;
+    text-align:center;
+    color:red;
+}
+#intro4 h1{
+    margin-top:100px;
+    font-size:50px;
+    margin-bottom:10px;
+}
+#bixes{
+    width:450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding:40px;
+    text-align:center;
+    margin:auto;
+    margin-top:5%;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a20c5dc7-531b-4a0a-82c8-56f5f865056e/d5toznj-10b08d50-0728-4bc6-a736-cedd15b08347.jpg/v1/fill/w_1024,h_586,q_75,strp/concept_art__asian_fantasy_citiscape_by_espj_o_d5toznj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTg2IiwicGF0aCI6IlwvZlwvYTIwYzVkYzctNTMxYi00YTBhLTgyYzgtNTZmNWY4NjUwNTZlXC9kNXRvem5qLTEwYjA4ZDUwLTA3MjgtNGJjNi1hNzM2LWNlZGQxNWIwODM0Ny5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.cryiQn3tmM0N6TvwN9ujWEpivBnYGHb_dX6k5wpgmLw) no-repeat;
+    background-size:cover;
+}
+.imageabout{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+}
+
+#bixes h1{
+    font-size:30px;
+    letter-spacing:4px;
+    font-weight:100;
+}
+
+#bixes h5{
+    font-size:20px;
+    letter-spacing:3px;
+    font-weight:100;
+}
+
+#bixes p{
+    text-align:justify;
+}
+
+/*subscribe*/
+
+#subscribe{
+    padding:15px;
+    color:goldenrod;
+    background:#35424a
+}
+
+#subscribe h1{
+    float:left;
+}
+
+#subscribe form{
+    float:right;
+}
+
+#subscribe input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+/*boxes*/
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+.resize{
+    width:100px;
+    height:200px;
+}
+
+/*Sidebar*/
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+/*Main-col*/
+
+article#main-col{
+    float:left;
+    width:70%;
+}
+article#main-col2{
+    float:left;
+    width:70%;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:goldenrod;
+    text-align:center;
+}
+
+/*media*/
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    header nav li
+    #newsletter h1,
+    #newsletter form
+    #boxes .box
+    article#main-col,
+    aside#sidebar{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:20px;
+    }
+    #intro h1{
+        margin-top:40px;
+    }
+    #subscribe button, .qoute{
+        display:block;
+        width:100%;
+    }
+    #subscribe form input[type="email"]{
+        width:100%;
+        margin-bottom:5px;
+    }
+}
